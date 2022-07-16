@@ -1,6 +1,7 @@
 :root {
     --azul-escuro: #293462;
     --verde: #92E3A9;
+    --verde-escuro: #53BF9D;
     --cinza: #495C83;
 
     --fonte: 'Poppins', sans-serif;
@@ -111,13 +112,6 @@ main {
 
 }
 
-.login-input__botao:hover {
-   cursor: pointer;
-   background-color: aquamarine;
-   transform: scale(1.1);
-
-}
-
 .login-opcao  {
     display: flex;
     flex-direction: column;
@@ -131,9 +125,22 @@ main {
     transition: all 1s;
 }
 
+/*  Hover  */
+
+.login-input__botao:hover {
+    cursor: pointer;
+    background-color: var(--verde-escuro);
+    transform: scale(1.1);
+}
+
 .login-opcao a:hover {
     text-decoration: underline;
     color: var(--verde);
+}
+
+.botao-login:hover {
+    border-color: transparent;
+    background-color:var(--verde-escuro) ;
 }
 
 img:hover {
@@ -141,7 +148,7 @@ img:hover {
 }
 
 a:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /*    RODAPE   */
