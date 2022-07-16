@@ -1,0 +1,242 @@
+:root {
+    --azul-escuro: #293462;
+    --verde: #92E3A9;
+    --cinza: #495C83;
+
+    --fonte: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 1em;
+
+    background-color: var(--azul-escuro);
+    color: whitesmoke;
+}
+
+main {
+    /* From https://css.glass */
+    background: var(--cinza);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--verde);
+    margin: 0 auto;
+
+    margin: 2em 1em;
+}
+
+.imagem-desktop {
+    display: none;
+    transition: all 1s;
+}
+
+.imagem-cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    transition: all 1s;
+}
+
+.imagem-cat img{
+    width: 70%;
+}
+
+.login-titulo {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+.login-plataforma {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+
+    padding: 2em;
+}
+
+.login-plataforma a {
+    transition: all 1s;
+}
+
+.botao-login {
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 0.5em;
+}
+
+/*     CONTEUDO     */
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0.5em 1.5em;
+}
+
+.login-input label {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 1em;
+}
+
+.login-input input {
+    padding: 0.5em 0;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 2px solid whitesmoke;
+    color: white;
+    font-size: 1em;
+}
+
+.login-input__botao {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    background-color: var(--verde);
+    border-radius: 10px;
+    border: 2px solid var(--azul-escuro);
+
+    padding: 0.8em 3em;
+    margin: 1em;
+
+    transition: all 1s;
+
+}
+
+.login-input__botao:hover {
+   cursor: pointer;
+   background-color: aquamarine;
+   transform: scale(1.1);
+
+}
+
+.login-opcao  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding-bottom: 2em;
+}
+
+.login-opcao a {
+    transition: all 1s;
+}
+
+.login-opcao a:hover {
+    text-decoration: underline;
+    color: var(--verde);
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+/*    RODAPE   */
+
+.rodape-mobile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+
+    padding: 1em;
+
+    background-color: var(--cinza);
+}
+
+.rodape-desktop {
+    display: none;
+}
+
+.rodape-desktop img{
+    padding-top: 1em;
+    transition: all 1s;
+}
+
+
+.rodape__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}   
+
+.rodape__social img{
+    width: 40px;
+}
+
+/*  RESPONSIVO TABLET  */
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 70%;
+        margin: 1em auto ;
+    }
+
+    .imagem-cat img{
+        width: 50%;
+    }
+    
+    .login-opcao {
+        gap: 1.5em;
+    }
+}
+
+/*  RESPONSIVO DESKTOP  */
+
+@media screen and (min-width: 1280px) {
+    .imagem-cat img {
+        display: none;
+    }
+
+    .imagem-desktop {
+        display:inline-block;
+        width: 45%;
+        padding-right: 10em;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+
+        height: 100vh;
+    }
+
+    main {
+        width: 25%;
+        margin: 0 0;
+        padding: 2em;
+    }
+
+    .rodape-mobile {
+        display: none;
+    }
+
+    .rodape-desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1em;;
+        padding: 1em 2em;
+        
+    }
+
+} 
+
