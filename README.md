@@ -1,3 +1,21 @@
+<div align="center">
+<img align="center" src="">
+</div>
+
+# 🗒️ Sobre o projeto
+
+| 🪧 Vitrine.Dev |  [Minha Vitrine Dev](https://cursos.alura.com.br/vitrinedev/danielbarreto)   |
+| -------------  | --- |
+| ✨: Nome        | AstroCat
+| 🏷️ Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  | 🎇: Bibliotecas |  [IcoMoon](https://icomoon.io/), [StorySet](https://storyset.com/).
+| 🚀: URL         | [AstroCat](https://astro-cat.bohr.io)
+
+
+# 🖼️ Banner do VitrineDev
+<div align="center">
+<img src="#vitrinedev">
+</div>
 
 # Olá, eu sou o Daniel Barreto! 👋
 
@@ -11,16 +29,7 @@ Essa é a página de login do AstroCat uma plataforma sobre gatos astronautas.
 
 Nesse projeto busquei praticar algumas coisas como usar input e button para login num site, usar SVGs como fontes utilizando essa fonte do site IcoMoon, e usar Gif esse foi meu primeiro projeto com esse formato. Também quis pôr em 
 prática responsividade para diferentes tamanhos de tela.
-## Deploy
 
- Visite a página no Github Pages: [AstroCat-Login](https://danielbarret0.github.io/AstroCat-login/)
-
-## Linguagens utilizadas
-  <div>
-  HTML <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> 
-   CSS <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  </div>
-  
 ## Demonstração
 
 ### Layout - Desktop
@@ -44,8 +53,6 @@ prática responsividade para diferentes tamanhos de tela.
   <a href="https://www.instagram.com/daniel.barret0/" alt="Instagram" target="_blank">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/daniel.barret0/"/ target="_blank"></a>
 </p>  
-
-
 
 ## Licença
 
