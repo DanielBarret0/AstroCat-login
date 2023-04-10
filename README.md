@@ -15,7 +15,7 @@
 
 # 🖼️ Banner do VitrineDev
 <div align="center">
-<img src="#vitrinedev">
+<img src="https://github.com/DanielBarret0/AstroCat-login/blob/main/prints-gif/Desktop-AstroCat.gif?raw=true#vitrinedev">
 </div>
 
 # AstroCat - Login
