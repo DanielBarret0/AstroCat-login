@@ -10,16 +10,13 @@
 | 🏷️ Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   | 🎇: Bibliotecas |  [IcoMoon](https://icomoon.io/), [StorySet](https://storyset.com/).
 | 🚀: URL         | [AstroCat](https://astro-cat.bohr.io)
+| :page_with_curl: Licença         | [<img src="https://img.shields.io/badge/LICENSE-MIT-green"/>](https://choosealicense.com/licenses/mit/) 
 
 
 # 🖼️ Banner do VitrineDev
 <div align="center">
 <img src="#vitrinedev">
 </div>
-
-# Olá, eu sou o Daniel Barreto! 👋
-
-Tenho 22 anos sou de Aracaju/Sergipe e estou em constante evolução na minha carreira Frontend. Busco sempre praticar aquilo que aprendo em cursos e demonstro isso com alguns projetos no meu repositório no github.
 
 # AstroCat - Login
 
@@ -53,8 +50,3 @@ prática responsividade para diferentes tamanhos de tela.
   <a href="https://www.instagram.com/daniel.barret0/" alt="Instagram" target="_blank">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/daniel.barret0/"/ target="_blank"></a>
 </p>  
-
-## Licença
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
